@@ -1,3 +1,4 @@
+
 <html lang="zh">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -8,7 +9,7 @@
     <link href="./fx_files/layui.css" rel="stylesheet">
     <script src="./fx_files/zepto.min.js"></script>
     <script src="./fx_files/qrcode.js"></script>
-    <base href="https://webapi4.jnu.edu.cn/xgfxm/" />
+    <!---<base href="https://webapi4.jnu.edu.cn/xgfxm/" />-->
     <script type="text/javascript">
         //得到时间并写入div
         function getDate(){
@@ -42,91 +43,91 @@
             }
     
             body {
-                background: url("cssjs/imgs/bg.jpg") repeat;
+                background: url(../imgs/bg.jpg) repeat;
                 background-size: 100%;
             }
     
             .cl0 {
                 z-index: 9999;
-                background: url("cssjs/imgs/3_01.jpg") no-repeat;
+                background: url(../imgs/bg.jpg) no-repeat;
                 background-size: 100%;
             }
     
             .cl1 {
                 z-index: 9999;
                 margin-top: -20px;
-                background: url("cssjs/imgs/3_02.jpg") no-repeat;
+                background: url(../imgs/3_02.jpg) no-repeat;
                 background-size: 100%;
             }
     
             .cl2 {
                 z-index: 9999;
                 text-align: center;
-                background: url("cssjs/imgs/3_03.jpg") no-repeat;
+                background: url(../imgs/3_03.jpg) no-repeat;
                 background-size: 100%;
             }
     
             .cl3 {
                 height: 200px;
                 margin-top: -40px;
-                background: url("cssjs/imgs/3_04.jpg") repeat;
+                background: url(../imgs/3_04.jpg) repeat;
                 background-size: 100%;
             }
     
             .cl4 {
-                background: url("cssjs/imgs/3_05.jpg") no-repeat;
+                background: url("../imgs/3_05.jpg") no-repeat;
                 background-size: 100%;
             }
     
             .cl5 {
-                background: url("cssjs/imgs/3_06.jpg") no-repeat;
+                background: url("../imgs/3_06.jpg") no-repeat;
                 background-size: 100%;
             }
     
             .cl6_yellow {
                 height: 40px;
-                background: url("cssjs/imgs/3_07_y.jpg") no-repeat;
+                background: url("../imgs/3_07_y.jpg") no-repeat;
                 background-size: 100%;
             }
     
             .cl6_red {
                 height: 40px;
-                background: url("cssjs/imgs/1_07.jpg") no-repeat;
+                background: url("../imgs/1_07.jpg") no-repeat;
                 background-size: 100%;
             }
     
             .cl6_green {
                 height: 40px;
-                background: url("cssjs/imgs/2_07.jpg") no-repeat;
+                background: url("../imgs/2_07.jpg") no-repeat;
                 background-size: 100%;
             }
     
             .cl6_grey {
                 height: 40px;
-                background: url("cssjs/imgs/grey.png") no-repeat;
+                background: url("../imgs/grey.png") no-repeat;
                 background-size: 100%;
             }
     
             .cl6_purple {
                 height: 40px;
-                background: url("cssjs/imgs/purple.png") no-repeat;
+                background: url("../imgs/purple.png") no-repeat;
                 background-size: 100%;
             }
     
             .cl6_blue {
                 height: 40px;
-                background: url("cssjs/imgs/blue.png") no-repeat;
+                background: url("../imgs/blue.png") no-repeat;
                 background-size: 100%;
             }
     
             .cl7 {
-                background: url("cssjs/imgs/3_08.jpg") no-repeat;
+                background: url("../imgs/3_08.jpg") no-repeat;
                 background-size: 100%;
             }
     
             .cl8 {
                 height: 60px;
-                background: url("cssjs/imgs/3_10_1.png") no-repeat;
+                background: url("../imgs/3_10_1.png") no-repeat;
                 background-size: 100%;
             }
         </style>
@@ -141,19 +142,25 @@
         <div class="page-hd cl3" style=" text-align: center;float:none;">
             <p style="font-size: 20px; text-align:center;">202034261020</p>
             <p style="font-size: 16px; text-align:center;">信息科学技术学院</p>
-            <p style="font-size: 16px; text-align:center;"></p>
+            <p style="font-size: 16px; text-align:center;">
+            </p>
             <div id="qr" class="tcenter" style="padding: 10px;height:170px;">
-                <img width="140px" height="160px" src="cssjs/imgs/fail.jpg"> <!--<img width="160px" height="160px" src="cssjs/imgs/www.png">-->        
+                                   <img width="140px" height="160px" src="/imgs/fail.jpg"> <!--<img width="160px" height="160px" src="cssjs/imgs/www.png">-->
+                            
             </div>
-            <p style="font-size: 16px; text-align:center;"></p>
+    
+            <p style="font-size: 16px; text-align:center;">
+            </p>
             <p style="font-size: 16px; font-weight: 200;" align="center"></p>
         </div>
         <div class="page-hd cl4"><p style="font-size: 20px; font-weight:bold;" align="center"><span id='times'></span></p></div>
         <div class="page-hd cl5">
         </div>
-            <div id="colorDIV" class="page-hd cl6 cl6_blue" permit="blue">
-                <p style=" color:#fff;   font-size: 25px;  font-weight: 200;" align="center">予以通行</p>
-            </div>
+    
+    
+                    <div id="colorDIV" class="page-hd cl6 cl6_blue" permit="purple">    
+                    <p style=" color:#fff;   font-size: 25px;  font-weight: 200;" align="center">予以通行</p>
+                </div>
         <div class="page-hd cl7"></div>
         <div class="page-hd cl8"></div>
     </body>
